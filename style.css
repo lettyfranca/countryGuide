@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #201b2c;
+}
+
+.container {
+    background-color: #2f2841;
+    width: 600px;
+    height: 70vh;
+    text-align: center;
+}
+
+.title {
+    color: #0be77d;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.title2 {
+    margin-bottom: 20px;
+}
+
+.inputCountry {
+    border: none;
+    outline: none;
+    width: 300px;
+    border-bottom: 3px solid #0be77d;
+    background-color: #2f2841;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.btnSearch {
+    padding: 5px 0;
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: #0be77d;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.resultContainer {
+    color: #fff;
+}
+
+.imgFlag {
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.guideCountry {
+    text-align: left;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.author {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+
+}
